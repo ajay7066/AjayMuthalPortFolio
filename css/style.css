@@ -318,7 +318,7 @@ header .follow a:hover{
 
 .about .row-2 .box-container .box{
     flex:1 1 15rem;
-    background:#333;
+    background:black;
     padding:2rem;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -345,7 +345,7 @@ header .follow a:hover{
     flex:1 1 30rem;
     text-align: center;
     padding:2rem;
-    background:#333;
+    background:black;
     border-radius: .5rem;
     box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -466,7 +466,7 @@ header .follow a:hover{
     height:4rem;
     width:4rem;
     border-radius: .5rem;
-    background: #333;
+    background: black;
     color:#fff;
     font-size: 1.7rem;
     line-height: 4rem;
@@ -589,7 +589,7 @@ header .follow a:hover{
 
     html{
         font-size: 55%;
-        text-align:center;
+        text-align: center;
     }
     
     body{
@@ -608,10 +608,7 @@ header .follow a:hover{
         left:0%;
     }
 
-    .cursor-1,
-    .cursor-2{
-        display: none;
-    }
+    
 
 }
 
@@ -619,11 +616,12 @@ header .follow a:hover{
 
     html{
         font-size: 50%;
-        texy-align:center;
+        align-items: center;
     }
 
     header{
         width:100%;
+        text-align: center;
     }
 
     .experience .box-container .box{
@@ -632,7 +630,14 @@ header .follow a:hover{
 
 }
 
-.box,textarea{
-    background-color: #333;
+.box{
+    background-color: black;
     color: white;
+}
+textarea{
+    background-color: #333;
+    color: ;
+}
+#box1{
+    background-color: #333;
 }
