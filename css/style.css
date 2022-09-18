@@ -597,7 +597,8 @@ header .follow a:hover{
         
     }
     img{
-        text-align: center;
+        width: 60%;
+        border-radius: 50%;
     }
     
     body{
@@ -631,7 +632,8 @@ header .follow a:hover{
     }
 
     img{
-        text-align: center;
+        width: 60%;
+        border-radius: 50%;
     }
     header{
         width:100%;
