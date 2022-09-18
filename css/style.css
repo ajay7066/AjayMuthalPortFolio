@@ -34,12 +34,18 @@ body{
 section{
     padding:1rem 5%;
     min-height: 100vh;
+    /* margin-top: 30vh; */
 }
 
 hr{
     color: #111;
 }
 
+.image1{
+    width: 80%;
+    border-radius: 20%;
+    
+}
 .heading{
     font-size: 4rem;
     padding-bottom: 1rem;
@@ -596,10 +602,11 @@ header .follow a:hover{
         font-size: 55%;
         
     }
-    img{
+    
+    /* img{
         width: 60%;
         border-radius: 50%;
-    }
+    } */
     
     body{
         padding: 0;
@@ -630,14 +637,23 @@ header .follow a:hover{
         font-size: 50%;
         
     }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
 
-    img{
+    /* img{
         width: 60%;
         border-radius: 50%;
-    }
+    } */
     header{
         width:100%;
         
+    }
+
+    .image1{
+        text-align: center;
     }
 
     .experience .box-container .box{
