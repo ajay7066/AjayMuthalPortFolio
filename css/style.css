@@ -589,6 +589,9 @@ header .follow a:hover{
 
     html{
         font-size: 55%;
+        
+    }
+    img{
         text-align: center;
     }
     
@@ -607,6 +610,9 @@ header .follow a:hover{
     header.active{
         left:0%;
     }
+    #box1{
+        background-color: #333;
+    }
 
     
 
@@ -616,27 +622,33 @@ header .follow a:hover{
 
     html{
         font-size: 50%;
-        align-items: center;
+        
     }
 
+    img{
+        text-align: center;
+    }
     header{
         width:100%;
-        text-align: center;
+        
     }
 
     .experience .box-container .box{
         padding-right: 0;
     }
+    #box1{
+        background-color: #333;
+    }
 
 }
 
 .box{
-    background-color: black;
+    /* background-color: black; */
     color: white;
 }
 textarea{
     background-color: #333;
-    color: ;
+    
 }
 #box1{
     background-color: #333;
