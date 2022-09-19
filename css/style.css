@@ -591,6 +591,10 @@ header .follow a:hover{
     background: #333;
 }
 
+.icon{
+    text-transform: none;
+}
+
 .footer span{
     color:var(--main-color);
 }
