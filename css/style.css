@@ -569,7 +569,7 @@ header .follow a:hover{
 
 .contact .row form .box::placeholder,
 .contact .row form textarea::placeholder{
-    text-transform: capitalize;
+    
 }
 
 .contact .row form textarea{
