@@ -79,7 +79,7 @@ header{
     justify-content: space-between;
     z-index: 1000;
     flex-flow: column;
-    padding:6rem 2rem;
+    padding:6rem 1.5rem;
     width:30rem;
     text-align: center;
 }
