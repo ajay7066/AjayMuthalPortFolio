@@ -563,7 +563,7 @@ header .follow a:hover{
 
 .contact .row form .box:focus,
 .contact .row form textarea:focus{
-    border-color: #707B7  ;
+    /* border-color: #707B7  ; */
 }
 
 .contact .row form .box::placeholder,
