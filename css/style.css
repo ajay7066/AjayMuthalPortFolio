@@ -384,7 +384,7 @@ header .follow a:hover{
 .experience .box-container .box{
     position: relative;
     flex:1 1 33rem;
-    border-left: .2rem solid #707B7#112D32  ;
+    border-left: .2rem solid #112D32  ;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;    
@@ -433,7 +433,7 @@ header .follow a:hover{
 }
 
 .portfolio .box-container .box{
-    flex:1 1 30rem;
+    flex:1 1 15rem;
     height:25rem;
     position: relative;
     overflow:hidden;
@@ -443,8 +443,8 @@ header .follow a:hover{
 }
 
 .portfolio .box-container .box img{
-    height:50%;
-    width: 50%;
+    height:100%;
+    width: 100%;
     object-fit: cover;
     border-radius: .5rem;
     position: relative;
@@ -457,14 +457,16 @@ header .follow a:hover{
 } */
 
 .portfolio .box-container .box h3{
-    position: absolute;
-    bottom:.5rem; left:1rem;
+    /* position: absolute; */
+    /* bottom:.5rem; left:1rem; */
     font-size: 2.5rem;
     color:black ;
     /* text-transform: uppercase; */
 }
 
 .portfolio .box-container .box .icons{
+    /* background-color: #fff; */
+    color: black;
     position: absolute;
     top:1rem; right:1rem;
 }
@@ -473,7 +475,7 @@ header .follow a:hover{
     display: block;
     height:4rem;
     width:4rem;
-    border-radius: .5rem;
+    /* border-radius: .5rem; */
     background: black;
     color:#fff;
     font-size: 1.7rem;
@@ -508,7 +510,7 @@ header .follow a:hover{
     width:5rem;
     line-height: 5rem;
     font-size: 2rem;
-    background: #707B7#112D32  ;
+    background: #112D32  ;
     color:#fff;
     border-radius: 50%;
 }
